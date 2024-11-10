@@ -1,8 +1,7 @@
 import csv
 
 def generar_id_unico():
-    # Generar un ID único. Aquí simplemente usamos un contador.
-    # En un contexto real, tal vez querrías una solución más robusta.
+    # Generar un ID único. Aquí simplemente usamos un contador
     id_unico = 1
     while True:
         yield id_unico
